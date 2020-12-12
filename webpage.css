@@ -1,0 +1,413 @@
+body , body * {
+	padding: 0;
+	margin:0;
+
+}
+.mian_container
+	{
+		width: 960px;
+		margin:  0 auto;
+        height: 1300px;
+        
+	    
+	    	
+}
+.logo{
+	width: 280px;
+	margin-top: 28px;
+	height: 55px;
+	float: left;
+}
+
+
+
+}
+.info {
+    font-family: ariel;
+    font-style: italic;
+    color: #878787;
+    font-size: 22px;
+}
+.info_second {
+    font-family: ariel;
+    font-weight: bold;
+    color: #659a51;
+    font-size: 22px;
+}
+.box1{
+	float: right;
+	margin-top: 44px;
+}
+
+
+
+
+.menu{
+	width: auto;
+	height: 50px;
+	margin: 32px 0 0;
+	background-color: #218cc8;
+}
+.menu ul {
+	list-style: none;
+
+}
+.menu ul li {
+	float: left;
+}
+ .menu ul li a {
+
+    color: #ffffff;
+    font-family: ariel;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 27px;
+    padding: 20px;
+    line-height: 10px;
+    display: block;
+    text-transform: capitalize;
+
+}
+.menu ul li a:hover{
+	background-color: #125c87;
+}
+.banner {
+
+    position: relative;
+    width: auto;
+    margin-top: 15px;
+
+}
+.banner_text {
+
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    width: 313px;
+
+}
+.banner_text h5 {
+
+    font-size: 34px;
+    color: #5290b4;
+    font-weight: bold;
+    font-family: ariel;
+
+}
+.banner_text p {
+
+    color: #88abbf;
+    font-size: 14px;
+    font-family: ariel;
+    font-weight: bold;
+    margin-left: 90px;
+}
+.check_out_button {
+
+    height: 38px;
+    width: 145px;
+    border: 1px solid;
+    background-color: #f28221;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: ariel;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 27px;
+   margin-left: 140px;
+
+
+}
+.after_banner{ margin: 20px 0px;
+	float: left;
+
+
+
+
+}
+.after_banner a {
+    text-transform: capitalize;
+    background-color: #ededed;
+    border: 1px solid #dededd;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: arial;
+    padding: 11px 16px;
+    display: inline;
+    text-decoration: none;
+    margin-right: 5px;
+    color: #a2a1a1
+
+}
+.after_banner a:last-child{
+	margin-right: 0;
+
+}
+.after_banner a.active,.after_banner a:hover {
+
+    color: #136392;
+    background-color: #dfedf5;
+    border-color: #c5e2f3;
+
+}
+
+.search_button {
+
+    font-family: arial;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #637f51;
+    background: #c5debb;
+    border: 1px solid #a5c796;
+    height: 38px;
+    box-sizing: border-box;
+    padding: 0 13px;
+
+}
+.search_field {
+    background: url(F:\webpage\images/search-feild.png) no-repeat scroll 0 0 / 100% 100%;
+    width: 238px;
+    height: 38px;
+    border: 2px solid #a5c796;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+.search_form
+	{
+	float: right;
+	margin-top: 20px;
+}
+.product {
+
+    margin: 24px 30px 26px -10px;
+    width: 300px;
+    float: left;
+    
+
+}
+.product h2 {
+	color: #146492;
+	font-size: 18px;
+	font-weight:bold;
+	font-family: arial;
+
+}
+.product_frame {
+    border: 9px solid #dfedf5;
+    margin: 9px 0 11px;
+    text-align: center;
+    height: 290px;
+}
+.product_frame img {
+	width: auto;
+	max-width: 100%;
+}
+.product p {
+	
+    font-family: ariel;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444545;
+
+}
+.product p span
+ {
+
+    color: #4c9242;
+
+}
+
+.product p, .code_ae{
+	float: right;
+}
+.product p, .code_ae span {
+	color: #676767;
+}
+.product_frame_container{
+	border: 1px solid #c5e2f3;
+	margin:9px 0 11px;
+}
+.product .third {
+	margin-right: 3px;
+    position: fixed;
+}
+
+@media screen and (max-width: 640px) {  
+  body .box1 {
+    background-color: lightgren;
+    float: left;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {  
+  body .menu {
+    background-color: lightgeen;
+    width: 600px;
+    height: 90px;
+    
+  }
+}
+
+@media screen and (max-width: 640px){
+    body .banner {
+
+        width: 600px;
+        height: 100px;
+        float: none;
+
+
+    }
+}
+
+
+@edia screen and (max-width: 600px){
+    body .active {
+
+        width: 300px;
+        height: 100px;
+        float: none;
+        background-color: red;
+
+
+    }
+}
+@media screen and (max-width: 640px){
+    body .after_banner {
+
+    width: 382px;
+    height: 0px;
+    float: left;
+    padding: 74px;
+   
+    }
+}
+@media screen and (max-width: 640px){
+    body .search_form {
+    width: 338px;
+    height: 228px;
+    float: none;
+
+    }
+}
+@media screen and (max-width: 640px){
+.banner_text h5{ color: #218cc8;
+
+
+}
+
+}
+@media screen and (max-width: 640px){
+.banner_text p{ color: #218cc8;
+
+
+}
+
+}
+@media screen and (max-width: 640px){
+.product{  float: none;
+
+
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 640){
+.mian_container{ width: 600px;
+
+
+}
+
+}
+@media screen and (max-width: 640px){
+.banner img { width: 590px;
+
+
+}
+
+}
+
+
+.footer-distributed{
+    background-color: #218cc8;
+    box-shadow: #218cc8;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+
+    padding: 45px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+    font-size:18px;
+    font-weight: bold;
+    color:  #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  white;
+}
+
+.footer-distributed .footer-right{
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color:  #218cc8;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right{
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links{
+        line-height: 1.8;
+    }
+}
